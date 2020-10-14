@@ -17,6 +17,8 @@ namespace CoreEscuela.Entidades
         //TipoEscuela es un enumerable definido en TiposEscuela.cs
         public TiposEscuela tipoEscuela { get; set; }
 
+        public Curso[] Cursos { get; set; }
+
         //Constructor full
         // public Escuela(string nombre,int AnoDeCreacion)
         // {
