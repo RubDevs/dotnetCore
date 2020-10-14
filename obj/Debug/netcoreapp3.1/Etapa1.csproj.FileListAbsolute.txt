@@ -1,0 +1,13 @@
+C:\Users\e5-575g\development\dotnet\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.exe
+C:\Users\e5-575g\development\dotnet\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.deps.json
+C:\Users\e5-575g\development\dotnet\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.runtimeconfig.json
+C:\Users\e5-575g\development\dotnet\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.runtimeconfig.dev.json
+C:\Users\e5-575g\development\dotnet\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.dll
+C:\Users\e5-575g\development\dotnet\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.pdb
+C:\Users\e5-575g\development\dotnet\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.csprojAssemblyReference.cache
+C:\Users\e5-575g\development\dotnet\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.AssemblyInfoInputs.cache
+C:\Users\e5-575g\development\dotnet\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.AssemblyInfo.cs
+C:\Users\e5-575g\development\dotnet\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.csproj.CoreCompileInputs.cache
+C:\Users\e5-575g\development\dotnet\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.dll
+C:\Users\e5-575g\development\dotnet\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.pdb
+C:\Users\e5-575g\development\dotnet\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.genruntimeconfig.cache
