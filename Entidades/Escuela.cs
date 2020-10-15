@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace CoreEscuela.Entidades
 {
     class Escuela
@@ -17,7 +19,7 @@ namespace CoreEscuela.Entidades
         //TipoEscuela es un enumerable definido en TiposEscuela.cs
         public TiposEscuela tipoEscuela { get; set; }
 
-        public Curso[] Cursos { get; set; }
+        public List<Curso> Cursos { get; set; }
 
         //Constructor full
         // public Escuela(string nombre,int AnoDeCreacion)
