@@ -26,15 +26,32 @@ namespace Etapa1
             };
 
             Cursos.Add(new Curso {Nombre = "102", Jornada = TiposJornada.Verspertino});
-
             escuela.Cursos = Cursos;
             escuela.Cursos.AddRange(Cursos2);
+            //Para eliminar un curso se puede pasar la referencia al objeto y 
+            //se va a buscar el hashcode dentro de la coleccion para eliminarlo
+            //escuela.Cursos.Remove(curso)
+
+            //Si no tengo la referencia al objeto se puede hacer de la siguiente forma
+            //Defino el delegado.
+            Predicate<Curso> miDlelegado = Predicado;
+            
+            escuela.Cursos.RemoveAll(miDlelegado);
+            
+            
             
             WriteLine(escuela.ToString());
             printCursosEscuela(escuela);
             //printCursos(arregloCursos);
             // System.Console.WriteLine(curso1.Nombre + ", " + curso1.UniqueId);
             // System.Console.WriteLine($"{curso2.Nombre} , {curso2.UniqueId}");
+        }
+
+        private static bool Predicado(Curso obj)
+        {
+            //Este metodo sera invocado por cada elemento de la coleccion y cada
+            //elemento coincida con condicion se eliminara
+            return obj.Nombre == "301";
         }
 
         private static void printCursosEscuela(Escuela escuela)
