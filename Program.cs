@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using CoreEscuela.Entidades;
+using CoreEscuela.Util;
 //Asi se puede dejar de escribir System.Console.WriteLine y solo utilizar WriteLine
 using static System.Console;
 
@@ -28,9 +29,8 @@ namespace CoreEscuela
 
         private static void printCursosEscuela(Escuela escuela)
         {
-            WriteLine("=============================");
-            WriteLine($"Cursos de {escuela.Nombre}");
-            WriteLine("=============================");
+
+            Printer.writeTitle($"Cursos de {escuela.Nombre}");
             //Valida si escuela y escuela.cursos no son null
             if(escuela?.Cursos != null)
             {

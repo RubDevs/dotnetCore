@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace CoreEscuela.Entidades
@@ -11,6 +12,8 @@ namespace CoreEscuela.Entidades
         }
 
         public int AnoDeCreacion { get; set; }
+
+        public string UniqueId { get; set; } = Guid.NewGuid().ToString();
 
         public string Pais { get; set; }
 
