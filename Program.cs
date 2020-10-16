@@ -33,10 +33,11 @@ namespace Etapa1
             //escuela.Cursos.Remove(curso)
 
             //Si no tengo la referencia al objeto se puede hacer de la siguiente forma
-            //Defino el delegado.
-            Predicate<Curso> miDlelegado = Predicado;
             
-            escuela.Cursos.RemoveAll(miDlelegado);
+            escuela.Cursos.RemoveAll(Predicado);
+
+            //Es posible reducir la cantidad de codigo con una expresion lambda
+            escuela.Cursos.RemoveAll((curso)=> curso.Nombre == "401");
             
             
             
